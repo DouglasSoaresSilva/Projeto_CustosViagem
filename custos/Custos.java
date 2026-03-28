@@ -6,7 +6,7 @@ package com.mycompany.custos;
 
 /**
  *
- * @author Isabelly
+ * @author Caio novaes dos santos
  */
 public class Custos {
 
