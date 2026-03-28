@@ -10,7 +10,12 @@ package com.mycompany.custos;
  */
 public class Custos {
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
+double totalPercurso;
+public void calculaViagem(Percurso p) {
+    
+    totalPercurso = (p.getkmPercorrido / 10) * p.getvalorCombustivel + p.getvalorPedagio;
 }
+   
+        
+    }
+
