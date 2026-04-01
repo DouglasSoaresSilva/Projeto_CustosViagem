@@ -13,14 +13,14 @@ public class Percurso {
             this.valorCombustivel = valorCombustivel;
             this.valorPedagio = valorPedagio;
         }
-        
+        // Método que retorna uma descrição do percurso em formato de texto.
         public String listarPercurso(){
         return "Km percorrido: " + kmPercorrido +
                 "\nValor do combustível: " + valorCombustivel + 
                 "\nValor do pedágio: " + valorPedagio;
  }
 
-        //Getters
+        // Getters - Métodos para acessar os valores dos atributos (encapsulamento)
         public double getKmPercorrido () {
                 return kmPercorrido;
         }
