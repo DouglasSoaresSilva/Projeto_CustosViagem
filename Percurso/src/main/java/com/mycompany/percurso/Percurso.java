@@ -19,4 +19,17 @@ public class Percurso {
                 "\nValor do combustível: " + valorCombustivel + 
                 "\nValor do pedágio: " + valorPedagio;
  }
+
+        //Getters
+        public double getKmPercorrido () {
+                return kmPercorrido;
+        }
+
+        public double getValorCombustivel () {
+                return valorCombustivel;
+        }
+
+        public double getValorPedagio () {
+                return valorPedagio;
+        }
 }
