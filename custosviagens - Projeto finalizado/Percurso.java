@@ -1,4 +1,4 @@
-package custosviagens.custosviagens;
+package com.mycompany.custosviagens;
 
 public class Percurso {
         private double kmPercorrido;
@@ -12,9 +12,9 @@ public class Percurso {
         }
         // Método que retorna uma descrição do percurso em formato de texto.
         public String listarPercurso(){
-        return "Km percorrido: " + kmPercorrido +
-                "\nValor do combustível: " + valorCombustivel + 
-                "\nValor do pedágio: " + valorPedagio;
+        return "Km percorrido: " + kmPercorrido + "km"+
+                "\nValor do combustível: R$" + valorCombustivel + 
+                "\nValor do pedágio: R$" + valorPedagio;
  }
 
         // Getters - Métodos para acessar os valores dos atributos (encapsulamento)

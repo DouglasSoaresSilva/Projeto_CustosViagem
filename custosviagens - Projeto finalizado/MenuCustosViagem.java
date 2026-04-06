@@ -1,4 +1,4 @@
-package custosviagens.custosviagens;
+package com.mycompany.custosviagens;
 
 public class MenuCustosViagem {
     private Percurso percurso;
@@ -48,7 +48,7 @@ public class MenuCustosViagem {
     this.percurso.cadastrarPercurso(kmPercorrido, valorCombustivel, valorPedagio);
     this.custos.calculaViagem(percurso);
     double result = this.custos.getTotalPercurso();
-    saida = this.percurso.listarPercurso() + "\n\nO custo total da viagem é: " + result;
+    saida = this.percurso.listarPercurso() + "\n\nO custo total da viagem é: R$" + result;
     this.io.saidaDados(saida);
     break;
     

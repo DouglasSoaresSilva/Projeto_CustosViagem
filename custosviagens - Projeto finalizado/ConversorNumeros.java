@@ -1,4 +1,4 @@
-package custosviagens.custosviagens;
+package com.mycompany.custosviagens;
 
 class ConversorNumeros {
     public Integer stringToInt(String numero) {

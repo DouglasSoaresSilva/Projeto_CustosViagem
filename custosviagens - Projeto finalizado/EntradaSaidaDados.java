@@ -1,4 +1,4 @@
-package custosviagens.custosviagens;
+package com.mycompany.custosviagens;
 
 import javax.swing.JOptionPane;
 

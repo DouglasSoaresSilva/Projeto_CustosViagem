@@ -1,4 +1,4 @@
-package custosviagens.custosviagens;
+package com.mycompany.custosviagens;
 
 public class Custos {
 
